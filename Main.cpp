@@ -30,12 +30,8 @@ bool signIn()
 
 int main() 
 {
-	
-	
 	int chose; 
 	cout << "1: Sign Up\n2: Sign In\nYour choose: "; cin >> chose;
-
-	
 	if (chose == 1)
 	{
 		string username, password;
